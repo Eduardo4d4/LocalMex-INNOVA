@@ -3,10 +3,10 @@ import streamlit as st
 
 
 # Cargar los datos
-BEdades = pd.read_csv('censo2020_pob_edades_alcaldia.csv')
-BEcono = pd.read_csv('censo2020_Caract_economicas_alcaldia.csv')
-BPNEA = pd.read_csv('censo2020_PNEA_alcaldia.csv')
-BEdu = pd.read_csv('censo2020_educacion_alcaldia.csv')
+BEdades = pd.read_csv('data/censo2020_pob_edades_alcaldia.csv')
+BEcono = pd.read_csv('data/censo2020_Caract_economicas_alcaldia.csv')
+BPNEA = pd.read_csv('data/censo2020_PNEA_alcaldia.csv')
+BEdu = pd.read_csv('data/censo2020_educacion_alcaldia.csv')
 
 # Función para mostrar los resultados en la interfaz gráfica
 def mostrar_resultados(combo_sexo, combo_edad):

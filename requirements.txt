@@ -1,0 +1,5 @@
+pandas
+datetime
+Pillow
+streamlit
+Django
